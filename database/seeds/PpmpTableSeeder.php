@@ -37,5 +37,14 @@ class PpmpTableSeeder extends Seeder
             'type' => 'Primary',
             'year' => date("Y-m-d H:i:s"),
         ]);
+
+        DB::table('ppmp')->insert([
+            'ppmp_id' => 14107,
+            'cc_id' => 9,
+            'fs_id' => 002,
+            'account_id' => 5020308000003,
+            'type' => 'Primary',
+            'year' => date("Y-m-d H:i:s"),
+        ]);
     }
 }

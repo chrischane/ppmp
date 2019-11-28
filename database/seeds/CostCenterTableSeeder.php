@@ -42,5 +42,9 @@ class CostCenterTableSeeder extends Seeder
         DB::table('cost_center')->insert([
             'cc_name' => 'Bids and Awards Committee',
         ]);
+
+        DB::table('cost_center')->insert([
+            'cc_name' => 'Clinic',
+        ]);
     }
 }

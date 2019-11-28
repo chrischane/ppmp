@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Create Fund Source</div>
+                    <div class="card-header">Create Cost Center</div>
 
                     <div class="card-body">
                         @if (session('status'))

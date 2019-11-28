@@ -74,5 +74,13 @@ class UsersTableSeeder extends Seeder
             'cc_id' => 8,
             'password' => bcrypt('secret'),
         ]);
+
+        DB::table('users')->insert([
+            'name' => 'Clinic Acc',
+            'email' => 'clinic@gmail.com',
+            'username' => 'clinic',
+            'cc_id' => 9,
+            'password' => bcrypt('secret'),
+        ]);
     }
 }
